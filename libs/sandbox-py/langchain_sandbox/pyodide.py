@@ -37,7 +37,8 @@ class CodeExecutionResult:
 
 
 # Published package name
-PKG_NAME = "jsr:@langchain/pyodide-sandbox@0.0.4"
+# PKG_NAME = "jsr:@langchain/pyodide-sandbox@0.0.4"
+PKG_NAME = "./sandbox_wrapper.ts"
 
 
 def build_permission_flag(
